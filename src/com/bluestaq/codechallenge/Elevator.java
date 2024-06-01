@@ -3,6 +3,13 @@ package com.bluestaq.codechallenge;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+/**
+ * Class used to simulate an Elevator.  It has a single constructor which accepts
+ * the number of floors desired and the starting floor.  It implements Runnable
+ * to be used as a separate thread.
+ * @author Andrew McDowell
+ *
+ */
 public class Elevator implements Runnable {
   
   //------------------------------------------------------- Member Variables

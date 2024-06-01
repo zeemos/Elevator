@@ -5,6 +5,14 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.regex.Pattern;
 
+/**
+ * Class used to demo the use of the Elevator class.  It retrieves command line
+ * inputs from the user to setup and then control an instance of the Elevator
+ * class.
+ * 
+ * @author Andrew McDowell
+ *
+ */
 public class ElevatorDemo {
   
   //------------------------------------------------------- Member Variables
